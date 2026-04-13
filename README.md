@@ -47,11 +47,11 @@ cd InstructIR
 
 ### 2. Add this project’s code
 
-Copy the `src/` folder from this repository into the cloned directory:
+Copy the `src/` folder from this repository after the cloned directory:
 
 ```id="zq2c1a"
 InstructIR/
-├── src/   ← paste here
+src/   ← paste here
 ```
 
 ---
@@ -70,7 +70,7 @@ pip install git+https://github.com/openai/CLIP.git
 Open and execute:
 
 ```id="m7xp9e"
-CV_Project_InstructIR_Extended.ipynb
+notebook.ipynb
 ```
 
 Make sure:
@@ -106,8 +106,8 @@ src/
 ├── faithfulness_metric.py  # IFS computation
 ├── metrics.py              # PSNR, SSIM
 
-CV_Project_InstructIR_Extended.ipynb
-CV_Project_report.pdf
+notebook.ipynb
+report.pdf
 ```
 
 ---
@@ -144,7 +144,7 @@ CV_Project_report.pdf
 This repository contains only:
 
 * `src/` (our extensions)
-* `CV_Project_InstructIR_Extended.ipynb`
+* `notebook.ipynb`
 
 You must clone the original InstructIR repository before running.
 
@@ -161,4 +161,4 @@ Focused on **instruction-driven and controllable image restoration**
 For a detailed explanation of the methodology, experiments, and results,  
 please refer to the full project report:
 
-`CV_Project_report.pdf`
+`report.pdf`
