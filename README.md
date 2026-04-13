@@ -155,4 +155,10 @@ You must clone the original InstructIR repository before running.
 Developed as part of a **Computer Vision project**
 Focused on **instruction-driven and controllable image restoration**
 
+---
+## Report
 
+For a detailed explanation of the methodology, experiments, and results,  
+please refer to the full project report:
+
+`CV_Project_report.pdf`
